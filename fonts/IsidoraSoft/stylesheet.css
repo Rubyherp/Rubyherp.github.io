@@ -1,0 +1,36 @@
+@font-face {
+    font-family: '.';
+    src: url('3319334ead7294d5098ea2ffdae24d54.woff2') format('woff2'),
+        url('3319334ead7294d5098ea2ffdae24d54.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('fb382bfed849f25095678175d2589e46.woff2') format('woff2'),
+        url('fb382bfed849f25095678175d2589e46.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'isidora_softlight';
+    src: url('isidora_softlight.woff2') format('woff2'),
+        url('isidora_softlight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('bb28dad40aca8341e5351937284e7c87.woff2') format('woff2'),
+        url('bb28dad40aca8341e5351937284e7c87.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
