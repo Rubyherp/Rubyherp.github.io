@@ -1,296 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="sidebar">
-            <div class="sidebar-title">
-                <img src="svg/view-dashboard.svg" alt="Dashboard Logo" height="50px">
-                <a href="">
-                    <p>Dashboard</p>
-                </a>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li>
-                        <img src="svg/home.svg" alt="Home Logo" height="30px">
-                        <a href="">
-                            <p>Home</p>
-                        </a>
-                    </li>
-                    <li>
-                        <img src="svg/card-account-details.svg" alt="Profile Logo" height="30px">
-                        <a href="">
-                            <p>Profile</p>
-                        </a>
-                    </li>
-                    <li>
-                        <img src="svg/message-badge.svg" alt="Messages Logo" height="30px">
-                        <a href="">
-                            <p>Messages</p>
-                        </a>
-                    </li>
-                    <li>
-                        <img src="svg/history.svg" alt="History Logo" height="30px">
-                        <a href="">
-                            <p>History</p>
-                        </a>
-                    </li>
-                    <li>
-                        <img src="svg/file-alert.svg" alt="Tasks Logo" height="30px">
-                        <a href="">
-                            <p>Tasks</p>
-                        </a>
-                    </li>
-                    <li>
-                        <img src="svg/account-group.svg" alt="Communities Logo" height="30px">
-                        <a href="">
-                            <p>Communities</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="misc">
-                <ul>
-                    <li>
-                        <img src="svg/cog.svg" alt="Setting Logo" height="30px">
-                        <a href="">
-                            <p>Setting</p>
-                        </a>
-                    </li>
-                    <li>
-                        <img src="svg/help-box.svg" alt="Support Logo" height="30px">
-                        <a href="">
-                            <p>Support</p>
-                        </a>
-                    </li>
-                    <li>
-                        <img src="svg/shield-key-outline.svg" alt="Privacy Logo" height="30px">
-                        <a href="">
-                            <p>Privacy</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="header">
-            <div class="header-upper">
-                <div class="searchbar">
-                    <img src="svg/magnify.svg" alt="searchbar Icon" height="30px">
-                    <input type="text" name="" id="" placeholder="     Search">
-                </div>
-                <div class="misc">
-                    <a href=""><img src="svg/bell-ring.svg" alt="Notification Button" height="30px"></a>
-                    <img src="images/Image (2).png" alt="Personal Icon" height="35px">
-                    <a href="">
-                        <p>Xiang Neng</p>
-                    </a>
-                </div>
-            </div>
-            <div class="header-lower">
-                <div class="icon">
-                    <img src="images/Image (2).png" alt="Personal Logo">
-                    <div class="intro">
-                        <p class="hi">Hi there,</p>
-                        <p class="name">Real Xiang Neng (@xn)</p>
+        <div class="left">
+            <div class="display">
+                <div class="header">Score</div>
+                <div class="body">
+                    <div class="player player1">
+                        <p class="p1-name highlight"></p>
+                        <div class="player-score player1-score"></div>
+                    </div>
+                    <div class="player player2">
+                        <p class="p2-name highlight"></p>
+                        <div class="player-score player2-score"></div>
                     </div>
                 </div>
-                <div class="option">
-                    <button>
-                        New
-                    </button>
-                    <button>
-                        Upload
-                    </button>
-                    <button>
-                        Share
-                    </button>
+                <div class="controls">
+                    <button class="reset-btn">Reset Board</button>
+                    <button class="resetScore-btn">Reset Score</button>
                 </div>
             </div>
         </div>
-
-        <div class="main">
-            <div class="projects">
-                <div class="project-header">
-                    <p>
-                        Your Projects
-                    </p>
-                </div>
-
-                <div class="project-container">
-                    <div class="card card-1">
-                        <p class="project-name">
-                            Sign Up Form
-                        </p>
-                        <p class="project-description">
-                            Simple signup form created by utilising pure css!
-                            Simple signup form created by utilising pure css!
-                            Simple signup form created by utilising pure css!
-                            Simple signup form created by utilising pure css!
-                        </p>
-                        <div class="icons">
-                            <a href=""><img src="svg/star-plus-outline.svg" alt="Star Logo" height="25px"></a>
-                            <a href=""><img src="svg/eye-plus-outline.svg" alt="Eye Logo" height="25px"></a>
-                            <a href=""><img src="svg/share-variant-outline.svg" alt="Share Logo" height="25px"></a>
-                        </div>
-                    </div>
-                    <div class="card card-2">
-                        <p class="project-name">
-                            project name
-                        </p>
-                        <p class="project-description">
-                            project description
-                        </p>
-                        <div class="icons">
-                            <a href=""><img src="svg/star-plus-outline.svg" alt="Star Logo" height="25px"></a>
-                            <a href=""><img src="svg/eye-plus-outline.svg" alt="Eye Logo" height="25px"></a>
-                            <a href=""><img src="svg/share-variant-outline.svg" alt="Share Logo" height="25px"></a>
-                        </div>
-                    </div>
-                    <div class="card card-3">
-                        <p class="project-name">
-                            project name
-                        </p>
-                        <p class="project-description">
-                            project description
-                        </p>
-                        <div class="icons">
-                            <a href=""><img src="svg/star-plus-outline.svg" alt="Star Logo" height="25px"></a>
-                            <a href=""><img src="svg/eye-plus-outline.svg" alt="Eye Logo" height="25px"></a>
-                            <a href=""><img src="svg/share-variant-outline.svg" alt="Share Logo" height="25px"></a>
-                        </div>
-                    </div>
-                    <div class="card card-4">
-                        <p class="project-name">
-                            project name
-                        </p>
-                        <p class="project-description">
-                            project description
-                        </p>
-                        <div class="icons">
-                            <a href=""><img src="svg/star-plus-outline.svg" alt="Star Logo" height="25px"></a>
-                            <a href=""><img src="svg/eye-plus-outline.svg" alt="Eye Logo" height="25px"></a>
-                            <a href=""><img src="svg/share-variant-outline.svg" alt="Share Logo" height="25px"></a>
-                        </div>
-                    </div>
-                    <div class="card card-5">
-                        <p class="project-name">
-                            project name
-                        </p>
-                        <p class="project-description">
-                            project description
-                        </p>
-                        <div class="icons">
-                            <a href=""><img src="svg/star-plus-outline.svg" alt="Star Logo" height="25px"></a>
-                            <a href=""><img src="svg/eye-plus-outline.svg" alt="Eye Logo" height="25px"></a>
-                            <a href=""><img src="svg/share-variant-outline.svg" alt="Share Logo" height="25px"></a>
-                        </div>
-                    </div>
-                    <div class="card card-6">
-                        <p class="project-name">
-                            project name
-                        </p>
-                        <p class="project-description">
-                            project description
-                        </p>
-                        <div class="icons">
-                            <a href=""><img src="svg/star-plus-outline.svg" alt="Star Logo" height="25px"></a>
-                            <a href=""><img src="svg/eye-plus-outline.svg" alt="Eye Logo" height="25px"></a>
-                            <a href=""><img src="svg/share-variant-outline.svg" alt="Share Logo" height="25px"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="announcement">
-                <div class="announcement-header">
-                    <p>
-                        Announcement
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="announcement-1">
-                        <p class="announcement-title announcement-1-header">
-                            Site Maintenance
-                        </p>
-                        <p class="announcement-description announcement-1-description">
-                            This site is still in the making unfortunately! Donate some money to hasten the process!
-                        </p>
-                    </div>
-                    <div class="announcement-2">
-                        <p class="announcement-title announcement-2-header">
-                            Xiang Neng's Birthday!
-                        </p>
-                        <p class="announcement-description announcement-2-description">
-                            It's Xiang Neng's Birthday. Be generous and donate $1000 for his b'day present!
-                        </p>
-                    </div>
-                    <div class="announcement-3">
-                        <p class="announcement-title announcement-3-header">
-                            Update Privacy Policy
-                        </p>
-                        <p class="announcement-description announcement-3-description">
-                            I ain't good enough to deal with security! But fret not, for my lacking is only temporary!
-                        </p>
-                    </div>
-                </div>
-
-                <div class="trending">
-                    <div class="trending-header">
-                        <p>
-                            Trending
-                        </p>
-                        <div class="card">
-                            <div class="account">
-                                <img src="images/Image (1).png" alt="" height="50px">
-                                <div class="account-name">
-                                    @Heroic-Xiang-Neng
-                                </div>
-                                <div class="account-description">
-                                    None other than the Heroic Xiang Neng
-                                </div>
-                            </div>
-                            <div class="account">
-                                <img src="images/3d-cartoon-style-character-2.jpg" alt="">
-                                <div class="account-name">
-                                    @Peace-builder-Xiang-Neng
-                                </div>
-                                <div class="account-description">
-                                    Nobel Peace Prize winner Xiang Neng. Exalted for being peaceful
-                                </div>
-                            </div>
-                            <div class="account">
-                                <img src="images/Image.png" alt="">
-                                <div class="account-name">
-                                    @President-Xiang-Neng
-                                </div>
-                                <div class="account-description">
-                                    Governor of XN's Utopia
-                                </div>
-                            </div>
-                            <div class="account">
-                                <img src="images/profilepic.jpg" alt="">
-                                <div class="account-name">
-                                    @Real-Xiang-Neng
-                                </div>
-                                <div class="account-description">
-                                    Maybe the real Xiang Neng? Who will know?
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="right">
+            <div class="gameboard"></div>
         </div>
+    </div>
 
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
